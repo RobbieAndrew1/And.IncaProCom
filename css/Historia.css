@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*  p  */ 
+p {
+	background-color: coral;
+	width: 6%;
+}
+
+p a{   
+	padding: 5px 20px;
+	text-decoration: none;
+	color: aqua;
+	display: inline-block;
+}
+
+
+/*section/*
+/*  section  */
+
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
